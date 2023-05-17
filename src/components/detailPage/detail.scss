@@ -1,0 +1,215 @@
+                        // details image
+                        @import url('https://fonts.googleapis.com/css2?family=Keania+One&family=Orbitron:wght@600&family=Raleway&family=Roboto&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.detail-container{
+    width:90%;
+    margin:auto;
+}
+.detail-row{
+    display:flex;
+    align-items: center;
+    // gap:3%;
+}
+.detail-img{
+    // width: 261px;
+    // height: 450px;
+    position: relative;
+    img{
+        max-width: 80%;
+     
+    }
+ 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.trailer_btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   transform: translate(-50%, -50%);
+    color: #000;
+    button{
+        border: none;
+        padding: 5px 15px ;
+        border-radius:50px;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       background-color: #000000d1;
+    }
+}
+.detail-content{
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    // font-size: 20px;
+    // font-weight: bold;
+    // margin-top: 30px;
+        .movie_title{
+            font-size: 38px;
+            // font-weight: 800;
+            text-align: left;
+            font-family: Roboto;
+            text-transform: capitalize;
+        }
+}
+.detail-content{
+    .star{
+        color:indianred;
+        font-size:37px;
+        // margin:5px;
+    }
+}
+.votes{
+    display: flex;
+    margin-top:30px;
+}
+.votes span{
+    
+    letter-spacing: 0.3px;
+}
+.vote{
+    font-size: 16px;
+    padding: 13px 0px 0px 4px;
+}
+
+.votes1{
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px;
+    margin: 16px 0px 0px;
+  display: flex;
+    cursor: pointer;
+    background-color: rgb(51, 51, 51);
+}
+.movie{
+        margin-top: 30px;
+        display: flex;
+       
+        a{
+            text-decoration: none;
+            color: hsl(0, 14%, 7%);
+        }
+        a:hover{
+            text-decoration: underline;
+            transition: 0.4s ease-in;
+        }
+}
+.card_movie{
+    padding: 0 5px;
+}
+
+.votes1{
+    .rating{
+        color:white;
+        font-size: 18px;
+        width: 100%;
+        letter-spacing: 0.3px;
+    }
+    .rating1{
+        color: rgba(190, 177, 177, 0.808);
+        font-size: 15px;
+        letter-spacing: 0.4px;
+        padding-top: 15px;
+       text-align: left;
+    }
+    .buttons{
+        cursor: pointer;
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        justify-content: center;
+        font-size:20px; 
+        margin-left: 4px;
+        padding: 8px 12px;
+        border: none;
+        color: rgba(50, 47, 47, 0.788);
+    }
+}
+.movie{
+    .max{
+        background-color:rgb(229, 229, 229);
+        color:black;
+        padding: 4px 15px;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    .langu{
+        background-color:rgb(229, 229, 229);
+        color:black;
+        padding: 4px 15px;
+        font-size: 18px;
+        cursor: pointer;
+    }
+}
+
+.timing{
+    margin-top: 20px;
+    font-size:25px;
+    word-spacing: 2px;
+    letter-spacing: 0.3px;
+}
+.points{
+    font-size: 22px;
+}
+.type{
+    text-transform: capitalize;
+    font-size: 17px;
+}
+.type:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.ticket{
+    margin-top: 20px;
+    text-align: left;
+}
+.button{
+    padding: 16px 70px;
+    border: 1px solid rgb(248, 68, 100);
+    color: rgb(255, 255, 255);
+    background-color: rgb(248, 68, 100);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 8px;
+    // width: 35%;
+    font-size: 17px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+                //about sect
+.about-sect{
+    padding: 20px 0;
+}
+.about-container{
+    width:80%;
+    margin:auto;
+}
+.about-content{
+    text-align: left;
+}
+.about-head{
+    font-size: 23px;
+    // font-weight: 600;
+    margin-top:20px;
+    color: rgb(0, 0, 0);
+}
+.about-para{
+    font-size: 18px;
+    // font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: rgb(51, 51, 51);
+    padding: 27px 0;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+
+

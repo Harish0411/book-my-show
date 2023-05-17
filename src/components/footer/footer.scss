@@ -1,0 +1,164 @@
+                    // Footer sect
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.foot-sect{
+     .foot-btn{
+    color:white;
+    margin:20px;
+    background-color: rgb(236, 94, 113);
+    border-radius: 3px;
+    padding: 8px 15px;
+    }
+    .foot-container{
+        width:90%;
+        margin:auto;
+    }
+    .foot-row{
+        display:flex;
+        justify-content:space-around;
+        align-items: center;
+    }
+    .foot-col1{
+        width: 80%;
+    }
+    .foot-col2{
+        width: 20%;
+    }
+    .foot-h2{
+        font-size: 17px;
+        color:white;
+        font-weight: 300;
+        word-spacing: 1px;
+        // margin:15px;
+    }
+    .foot-icon{
+        font-size: 40px;
+        // display:inline-block;
+        margin:0px 13px;
+        color:white;
+        // padding: 8px;
+       
+    }
+    .bold{
+        font-size: 19px;
+        padding:0 10px;
+        // padding-bottom: 20px;
+    }
+}
+.foot-sect{
+    width: 100%;
+    background-color:rgb(49, 48, 53);;
+}
+                            // footer icons
+ .footer-icons{
+    background-color: rgb(64, 64, 67);
+    width:100%;
+ }
+.footer-container{
+    width:90%;
+    margin:auto;
+}
+.footer-icons{
+    .footer-row{
+        display:flex;
+        justify-content: space-around;
+    }
+    .footer-detail{
+        text-align: center;
+        font-size: 13px;
+        color:rgba(188, 192, 196, 0.74);
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+}
+
+.footer-detail:hover{
+    color:white;
+}
+                        // footer line
+.fo-container{
+    width:100%;
+}
+.fo-name{
+    font-size: 25px;
+    color:white;
+    font-weight: 400;
+    font-style: italic;
+}
+.fo-name span{
+    color:red;
+}
+.fo-hr{
+    width:90%;
+    height: 3px;
+    // color:blue;
+}
+.fo-text{
+    text-align: center;
+    padding: 70px;
+    position: relative;
+}
+.fo-text::after{
+    position: absolute;
+    height: 1px;
+    width: 650px;
+    right: 20px;
+    background-color:rgb(127, 127, 127);
+    top:90px;
+    content: " ";
+}
+.fo-text::before{
+    position: absolute;
+    height: 1px;
+    width: 650px;
+    background-color:rgb(127, 127, 127);
+    top:90px;
+    left:20px;
+    content: " ";
+}
+                // footer image
+.f-image {
+    color:rgb(93, 93, 95);
+    // font-size: 50px;
+    padding-left: 10px;
+}
+.f-image:hover{
+    color:white;
+}
+.foot-para{
+    text-align: center;
+    padding: 30px;
+    font-size: 13px;
+    color: rgb(102, 102, 102);
+}
+.fs-image{
+    text-align: center;
+}
+
+                            // Responsive
+@media(min-width:320px){
+.foot-sect{
+    display:none;
+}
+}
+@media(min-width:690px){
+.foot-sect{
+        display:none;
+}
+}
+@media(min-width:1020px){
+    .foot-sect{
+        display:block;
+}    
+}
+
+.mobile_nav{
+
+.css-heg063-MuiTabs-flexContainer {
+  
+    justify-content: space-around !important;
+}
+}

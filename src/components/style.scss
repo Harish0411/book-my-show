@@ -1,0 +1,126 @@
+$primary-color:  #f5f5f5;
+$secondary-color : lighten($primary-color, 20%);
+
+.slider-image{
+    img{
+        width: 100%;
+    }
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 90%;
+    padding-bottom: 10px;
+    background-color: $secondary-color;
+    
+}
+.slick-track{
+    display: flex !important;
+    justify-content: space-between !important;
+
+    .slick-slide{
+        width: 100% !important;
+    }
+}
+
+.slick-dots{
+    bottom: 10% !important;
+
+     li button:before{
+       font-size: 13px;
+    }
+}
+
+.movie-section{
+  //  background-color: #f5f5f5;
+  background-color: $primary-color;
+
+    .movies_container{
+        width: 80%;
+        margin: auto;
+         .movies-row{
+            .title{
+             display: flex;
+             justify-content: space-between;
+             padding: 0 10px;
+             align-items: center;
+              h3{
+                 font-size: 30px;
+              }
+            }
+           padding: 40px 0;
+         .movies{
+            padding: 10px;
+         }
+         }
+         .poster{
+            img{
+                max-width: 100%;
+            }
+         }
+         .movies-card{
+             cursor: pointer;
+         }    
+     
+     }
+}
+
+
+
+.react-multiple-carousel__arrow--right {
+    right: 0 !important;
+}
+.react-multiple-carousel__arrow--left {
+    left: 0 !important;
+}
+.react-multiple-carousel__arrow{
+    background-color: rgb(153,153,153) !important;
+}
+
+.le_img{
+    .img_card{
+        padding: 12px;
+        cursor: pointer;
+        img{
+            border-radius: 10px;
+            max-width: 100%;
+        }
+    }
+    .img_card:first-child{
+        padding-left: 0;
+    }
+}
+.live_event{
+    padding: 50px 0;
+    .le_title{
+        text-align: left;
+        text-transform: capitalize;
+    }
+}
+
+
+.card_img img{
+    max-width: 100%;
+    border-radius: 5px;
+}
+.card_content{
+    margin: 7px 0;
+    .movie_name{
+        font-size: 18px;
+        font-weight: 600;
+        text-align: left;
+        color: rgb(34, 34, 34); 
+        font-family: Roboto;
+        text-overflow: ellipsis;
+        text-transform: capitalize;
+        margin: 4px 0;
+
+    }
+    .description{
+        text-align: left;
+        text-transform: capitalize;
+        color: rgb(102, 102, 102);
+        font-size: 16px;
+    }
+}
+

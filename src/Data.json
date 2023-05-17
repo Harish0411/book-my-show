@@ -1,0 +1,642 @@
+[
+  {
+    "id": 1,
+    "movie_name": "Ponniyan selvan- part-2",
+    "movie_description": "A plot to murder the king and the two princes of the Chola dynasty is underfoot. Can the Cholas survive the wrath of the Pandiya rebels, who are being led by the vengeful Nandhini?",
+    "ratings": "8.5",
+    "votes": "28.7k",
+    "release_date": "23 April, 2023",
+    "imgUrl": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OC43LzEwICAyOC44SyB2b3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00348725-ftkedqllrt-portrait.jpg",
+    "posterUrl": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/ponniyin-selvan--part-2-et00348725-1680776467.jpg",
+    "theatres": [
+        {
+            "theatreId" : 500,
+            "theatre_name" : "AGS Cinemas OMR: Navlur",
+            "isCancellable" : false,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [4, 6, 10, 11, 12, 17, 19, 19.25, 19.50, 22.50, 23.25],
+            "isMiTicketAvailable" : true
+        },
+        {
+            "theatreId" : 501,
+            "theatre_name" : "INOX: LUXE Phoenix Market City, Velachery",
+            "isCancellable" : false,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5, 8, 10, 11.50, 15.50, 18.50, 21, 23],
+            "isMiTicketAvailable" : true
+        },
+        {
+            "theatreId" : 502,
+            "theatre_name" : "PVR: Aerohub, Chennai",
+            "isCancellable" : true,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : true
+        },
+        {
+            "theatreId" : 503,
+            "theatre_name" : "Anand Theatre Madhuranthagam RGB LASER 4k",
+            "isCancellable" : true,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : false
+        },
+        {
+            "theatreId" : 504,
+            "theatre_name" : "Ganapathy Theatre 2K Dts: Gummidipoondi, Chennai",
+            "isCancellable" : true,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : false
+        } 
+    ],
+    "duration": "2h 44m",
+    "languages": ["Tamil", "Kannada", "Telugu", "English"],
+    "certificate": "U",
+    "price": 250,
+    "projectors": ["2D", "IMAX 2D"],
+    "genre": ["action", "drama"],
+    "trailer" : "https://youtu.be/EnhS3matIoU"
+  },
+  {
+    "id": 2,
+    "movie_name": "Evil Dead Rise",
+    "movie_description": "good movie",
+    "ratings": "8.5",
+    "votes": "28.7k",
+    "release_date": "23 April 2023",
+    "imgUrl": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-Ny41LzEwICAxNi45SyB2b3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00349309-ynqvrxxagk-portrait.jpg",
+    "posterUrl": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/ponniyin-selvan--part-2-et00348725-1680776467.jpg",
+    "theatres": [
+        {
+            "theatreId" : 500,
+            "theatre_name" : "AGS Cinemas OMR: Navlur",
+            "isCancellable" : false,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : true
+        },
+        {
+            "theatreId" : 501,
+            "theatre_name" : "INOX: LUXE Phoenix Market City, Velachery",
+            "isCancellable" : false,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : true
+        },
+        {
+            "theatreId" : 502,
+            "theatre_name" : "PVR: Aerohub, Chennai",
+            "isCancellable" : true,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : true
+        },
+        {
+            "theatreId" : 503,
+            "theatre_name" : "Anand Theatre Madhuranthagam RGB LASER 4k",
+            "isCancellable" : true,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : false
+        },
+        {
+            "theatreId" : 504,
+            "theatre_name" : "Ganapathy Theatre 2K Dts: Gummidipoondi, Chennai",
+            "isCancellable" : true,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : false
+        } 
+    ],
+    "duration": "2h 44m",
+    "languages": ["Tamil", "Kannada", "Telugu", "English"],
+    "certificate": "U",
+    "price": 250,
+    "projectors": ["2D", "IMAX 2D"],
+    "genre": ["action", "drama"],
+    "trailer" : "https://youtu.be/EnhS3matIoU"
+  },
+  {
+    "id": 3,
+    "movie_name": "Agent",
+    "movie_description": "good movie",
+    "ratings": "8.5",
+    "votes": "28.7k",
+    "release_date": "23 April 2023",
+    "imgUrl": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-NS45LzEwICAxMy43SyB2b3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00310078-fkyazsqyfj-portrait.jpg",
+    "posterUrl": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/ponniyin-selvan--part-2-et00348725-1680776467.jpg",
+    "theatres": [
+        {
+            "theatreId" : 500,
+            "theatre_name" : "AGS Cinemas OMR: Navlur",
+            "isCancellable" : false,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : true
+        },
+        {
+            "theatreId" : 501,
+            "theatre_name" : "INOX: LUXE Phoenix Market City, Velachery",
+            "isCancellable" : false,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : true
+        },
+        {
+            "theatreId" : 502,
+            "theatre_name" : "PVR: Aerohub, Chennai",
+            "isCancellable" : true,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : true
+        },
+        {
+            "theatreId" : 503,
+            "theatre_name" : "Anand Theatre Madhuranthagam RGB LASER 4k",
+            "isCancellable" : true,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : false
+        },
+        {
+            "theatreId" : 504,
+            "theatre_name" : "Ganapathy Theatre 2K Dts: Gummidipoondi, Chennai",
+            "isCancellable" : true,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : false
+        } 
+    ],
+    "duration": "2h 44m",
+    "languages": ["Tamil", "Kannada", "Telugu", "English"],
+    "certificate": "U",
+    "price": 250,
+    "projectors": ["2D", "IMAX 2D"],
+    "genre": ["action", "Thriller"],
+    "trailer" : "https://youtu.be/EnhS3matIoU"
+  },
+  {
+    "id": 4,
+    "movie_name": "virupaksha",
+    "movie_description": "good movie",
+    "ratings": "8.5",
+    "votes": "28.7k",
+    "release_date": "23 April 2023",
+    "imgUrl": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OS4zLzEwICA1My45SyB2b3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00346626-vnzlbbnyzy-portrait.jpg",
+    "posterUrl": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/ponniyin-selvan--part-2-et00348725-1680776467.jpg",
+    "theatres": [
+        {
+            "theatreId" : 500,
+            "theatre_name" : "AGS Cinemas OMR: Navlur",
+            "isCancellable" : false,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : true
+        },
+        {
+            "theatreId" : 501,
+            "theatre_name" : "INOX: LUXE Phoenix Market City, Velachery",
+            "isCancellable" : false,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : true
+        },
+        {
+            "theatreId" : 502,
+            "theatre_name" : "PVR: Aerohub, Chennai",
+            "isCancellable" : true,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : true
+        },
+        {
+            "theatreId" : 503,
+            "theatre_name" : "Anand Theatre Madhuranthagam RGB LASER 4k",
+            "isCancellable" : true,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : false
+        },
+        {
+            "theatreId" : 504,
+            "theatre_name" : "Ganapathy Theatre 2K Dts: Gummidipoondi, Chennai",
+            "isCancellable" : true,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : false
+        } 
+    ],
+    "duration": "2h 44m",
+    "languages": ["Tamil", "Kannada", "Telugu", "English"],
+    "certificate": "U",
+    "price": 250,
+    "projectors": ["2D", "IMAX 2D"],
+    "genre": ["action", "drama"],
+    "trailer" : "https://youtu.be/EnhS3matIoU"
+  },
+  {
+    "id": 5,
+    "movie_name": "ruthran",
+    "movie_description": "good movie",
+    "ratings": "8.5",
+    "votes": "28.7k",
+    "release_date": "23 April 2023",
+    "imgUrl": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-Ny4xLzEwICA1LjRLIHZvdGVz,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00333202-zsnfnlghtq-portrait.jpg",
+    "posterUrl": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/ponniyin-selvan--part-2-et00348725-1680776467.jpg",
+    "theatres": [
+        {
+            "theatreId" : 500,
+            "theatre_name" : "AGS Cinemas OMR: Navlur",
+            "isCancellable" : false,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : true
+        },
+        {
+            "theatreId" : 501,
+            "theatre_name" : "INOX: LUXE Phoenix Market City, Velachery",
+            "isCancellable" : false,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : true
+        },
+        {
+            "theatreId" : 502,
+            "theatre_name" : "PVR: Aerohub, Chennai",
+            "isCancellable" : true,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : true
+        },
+        {
+            "theatreId" : 503,
+            "theatre_name" : "Anand Theatre Madhuranthagam RGB LASER 4k",
+            "isCancellable" : true,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : false
+        },
+        {
+            "theatreId" : 504,
+            "theatre_name" : "Ganapathy Theatre 2K Dts: Gummidipoondi, Chennai",
+            "isCancellable" : true,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : false
+        } 
+    ],
+    "duration": "2h 44m",
+    "languages": ["Tamil", "Kannada", "Telugu", "English"],
+    "certificate": "U",
+    "price": 250,
+    "projectors": ["2D", "IMAX 2D"],
+    "genre": ["action", "drama"],
+    "trailer" : "https://youtu.be/EnhS3matIoU"
+  },
+  {
+    "id": 6,
+    "movie_name": "Fast X",
+    "movie_description": "good movie",
+    "ratings": "8.5",
+    "votes": "28.7k",
+    "release_date": "23 April 2023",
+    "imgUrl": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:q-80/et00348725-ftkedqllrt-portrait.jpg",
+    "posterUrl": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/ponniyin-selvan--part-2-et00348725-1680776467.jpg",
+    "theatres": [
+        {
+            "theatreId" : 500,
+            "theatre_name" : "AGS Cinemas OMR: Navlur",
+            "isCancellable" : false,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : true
+        },
+        {
+            "theatreId" : 501,
+            "theatre_name" : "INOX: LUXE Phoenix Market City, Velachery",
+            "isCancellable" : false,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : true
+        },
+        {
+            "theatreId" : 502,
+            "theatre_name" : "PVR: Aerohub, Chennai",
+            "isCancellable" : true,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : true
+        },
+        {
+            "theatreId" : 503,
+            "theatre_name" : "Anand Theatre Madhuranthagam RGB LASER 4k",
+            "isCancellable" : true,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : false
+        },
+        {
+            "theatreId" : 504,
+            "theatre_name" : "Ganapathy Theatre 2K Dts: Gummidipoondi, Chennai",
+            "isCancellable" : true,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : false
+        } 
+    ],
+    "duration": "2h 44m",
+    "languages": ["Tamil", "Kannada", "Telugu", "English"],
+    "certificate": "U",
+    "price": 250,
+    "projectors": ["2D", "IMAX 2D"],
+    "genre": ["action", "drama"],
+    "trailer" : "https://youtu.be/EnhS3matIoU"
+  },
+  {
+    "id": 7,
+    "movie_name": "sisu",
+    "movie_description": "good movie",
+    "ratings": "8.5",
+    "votes": "28.7k",
+    "release_date": "23 April 2023",
+    "imgUrl": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:q-80/et00348725-ftkedqllrt-portrait.jpg",
+    "posterUrl": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/ponniyin-selvan--part-2-et00348725-1680776467.jpg",
+    "theatres": [
+        {
+            "theatreId" : 500,
+            "theatre_name" : "AGS Cinemas OMR: Navlur",
+            "isCancellable" : false,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : true
+        },
+        {
+            "theatreId" : 501,
+            "theatre_name" : "INOX: LUXE Phoenix Market City, Velachery",
+            "isCancellable" : false,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : true
+        },
+        {
+            "theatreId" : 502,
+            "theatre_name" : "PVR: Aerohub, Chennai",
+            "isCancellable" : true,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : true
+        },
+        {
+            "theatreId" : 503,
+            "theatre_name" : "Anand Theatre Madhuranthagam RGB LASER 4k",
+            "isCancellable" : true,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : false
+        },
+        {
+            "theatreId" : 504,
+            "theatre_name" : "Ganapathy Theatre 2K Dts: Gummidipoondi, Chennai",
+            "isCancellable" : true,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : false
+        } 
+    ],
+    "duration": "2h 44m",
+    "languages": ["Tamil", "Kannada", "Telugu", "English"],
+    "certificate": "U",
+    "price": 250,
+    "projectors": ["2D", "IMAX 2D"],
+    "genre": ["action", "drama"],
+    "trailer" : "https://youtu.be/EnhS3matIoU"
+  },
+  {
+    "id": 8,
+    "movie_name": "viduthalai part-1",
+    "movie_description": "good movie",
+    "ratings": "8.5",
+    "votes": "28.7k",
+    "release_date": "23 April 2023",
+    "imgUrl": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:q-80/et00348725-ftkedqllrt-portrait.jpg",
+    "posterUrl": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/ponniyin-selvan--part-2-et00348725-1680776467.jpg",
+    "theatres": [
+        {
+            "theatreId" : 500,
+            "theatre_name" : "AGS Cinemas OMR: Navlur",
+            "isCancellable" : false,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : true
+        },
+        {
+            "theatreId" : 501,
+            "theatre_name" : "INOX: LUXE Phoenix Market City, Velachery",
+            "isCancellable" : false,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : true
+        },
+        {
+            "theatreId" : 502,
+            "theatre_name" : "PVR: Aerohub, Chennai",
+            "isCancellable" : true,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : true
+        },
+        {
+            "theatreId" : 503,
+            "theatre_name" : "Anand Theatre Madhuranthagam RGB LASER 4k",
+            "isCancellable" : true,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : false
+        },
+        {
+            "theatreId" : 504,
+            "theatre_name" : "Ganapathy Theatre 2K Dts: Gummidipoondi, Chennai",
+            "isCancellable" : true,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : false
+        } 
+    ],
+    "duration": "2h 44m",
+    "languages": ["Tamil", "Kannada", "Telugu", "English"],
+    "certificate": "U",
+    "price": 250,
+    "projectors": ["2D", "IMAX 2D"],
+    "genre": ["action", "drama"],
+    "trailer" : "https://youtu.be/EnhS3matIoU"
+  },
+  {
+    "id": 9,
+    "movie_name": "the super mario bros. movie",
+    "movie_description": "good movie",
+    "ratings": "8.5",
+    "votes": "28.7k",
+    "release_date": "23 April 2023",
+    "imgUrl": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:q-80/et00348725-ftkedqllrt-portrait.jpg",
+    "posterUrl": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/ponniyin-selvan--part-2-et00348725-1680776467.jpg",
+    "theatres": [
+        {
+            "theatreId" : 500,
+            "theatre_name" : "AGS Cinemas OMR: Navlur",
+            "isCancellable" : false,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : true
+        },
+        {
+            "theatreId" : 501,
+            "theatre_name" : "INOX: LUXE Phoenix Market City, Velachery",
+            "isCancellable" : false,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : true
+        },
+        {
+            "theatreId" : 502,
+            "theatre_name" : "PVR: Aerohub, Chennai",
+            "isCancellable" : true,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : true
+        },
+        {
+            "theatreId" : 503,
+            "theatre_name" : "Anand Theatre Madhuranthagam RGB LASER 4k",
+            "isCancellable" : true,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : false
+        },
+        {
+            "theatreId" : 504,
+            "theatre_name" : "Ganapathy Theatre 2K Dts: Gummidipoondi, Chennai",
+            "isCancellable" : true,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : false
+        } 
+    ],
+    "duration": "2h 44m",
+    "languages": ["Tamil", "Kannada", "Telugu", "English"],
+    "certificate": "U",
+    "price": 250,
+    "projectors": ["2D", "IMAX 2D"],
+    "genre": ["action", "drama"],
+    "trailer" : "https://youtu.be/EnhS3matIoU"
+  },
+  {
+    "id": 10,
+    "movie_name": "kisi ka bhai kisi ki jaan",
+    "movie_description": "good movie",
+    "ratings": "8.5",
+    "votes": "28.7k",
+    "release_date": "23 April 2023",
+    "imgUrl": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:q-80/et00348725-ftkedqllrt-portrait.jpg",
+    "posterUrl": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/ponniyin-selvan--part-2-et00348725-1680776467.jpg",
+    "theatres": [
+        {
+            "theatreId" : 500,
+            "theatre_name" : "AGS Cinemas OMR: Navlur",
+            "isCancellable" : false,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : true
+        },
+        {
+            "theatreId" : 501,
+            "theatre_name" : "INOX: LUXE Phoenix Market City, Velachery",
+            "isCancellable" : false,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : true
+        },
+        {
+            "theatreId" : 502,
+            "theatre_name" : "PVR: Aerohub, Chennai",
+            "isCancellable" : true,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : true
+        },
+        {
+            "theatreId" : 503,
+            "theatre_name" : "Anand Theatre Madhuranthagam RGB LASER 4k",
+            "isCancellable" : true,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : false
+        },
+        {
+            "theatreId" : 504,
+            "theatre_name" : "Ganapathy Theatre 2K Dts: Gummidipoondi, Chennai",
+            "isCancellable" : true,
+            "premiumPrice" : 190,
+            "budgetPrice" : 60,
+            "showTimes" : [5,8,10,15.50,18.50,21,23],
+            "isMiTicketAvailable" : false
+        } 
+    ],
+    "duration": "2h 44m",
+    "languages": ["Tamil", "Kannada", "Telugu", "English"],
+    "certificate": "U",
+    "price": 250,
+    "projectors": ["2D", "IMAX 2D"],
+    "genre": ["action", "drama"],
+    "trailer" : "https://youtu.be/EnhS3matIoU"
+  }
+]

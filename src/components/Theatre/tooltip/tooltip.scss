@@ -1,0 +1,38 @@
+.tooltip_container{
+    // padding: 10px;
+    .tool_row{
+        display: flex;
+        text-align: center;
+       justify-content: space-between;
+        .tool_col{
+            padding: 10px;
+            .price{
+                font-size: 14px;
+                
+            }
+            .almost{
+                color: #6dee83;
+                font-weight: 700;
+                letter-spacing: 1px;
+            }
+            .sold{
+                color:#ccc;
+            }
+            .budget{
+                font-size: 9px;
+                text-transform: uppercase;
+            }
+            span{
+                display: block;
+            }
+        }
+    }
+}
+.movie_name{
+    text-transform: capitalize;
+}
+.css-tkn350-MuiTabs-root {
+   
+    min-height: 56px !important;
+}
+
