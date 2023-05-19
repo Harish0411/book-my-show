@@ -5,10 +5,18 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { ChevronRight } from '@mui/icons-material';
 import data from '../../Data.json'
+import { screenPage } from '../../redux/theatreScreenSlice';
+import { useEffect } from 'react';
+import { useDispatch } from 'react-redux';
 
 const Home = () => {
 
     console.log(data);
+    const dispatch = useDispatch()
+
+    useEffect(() => {
+      dispatch(screenPage(false))
+    },[])
 
     const events = [
         'https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:w-300:q-80/ipl-collection-202302270454.png',

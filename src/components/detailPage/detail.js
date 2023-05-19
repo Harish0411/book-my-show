@@ -1,14 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./detail.scss";
 import StarIcon from "@mui/icons-material/Star";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { PlayArrow } from "@mui/icons-material";
 import { useNavigate } from "react-router-dom";
+import { screenPage } from "../../redux/theatreScreenSlice";
 
 const MovieDetails = () => {
   const { detail } = useSelector(({ detail }) => detail);
   console.log(detail);
   const navigate = useNavigate()
+  const dispatch = useDispatch()
+
+  useEffect(() => {
+    dispatch(screenPage(false))
+  },[])
 
   return (
     <>

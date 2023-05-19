@@ -136,6 +136,10 @@ table {
     display: block;
   }
 }
+.show_tyms.active{
+  background-color: #81e291;
+  color: #fff;
+}
 .screen {
   display: flex;
   justify-content: center;

@@ -1,17 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import "./theatre.scss";
-// import Carousel from 'react-multi-carousel';
 import { Col, ListGroup, Row } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
-// import { Tooltip } from '@mui/material';
 import UpperTooltip from "./tooltip/tooltip";
-// import UpperTooltip from './tooltip/tooltip';
-// import { styled } from '@mui/material/styles';
-// import Button from '@mui/material/Button';
 import Tooltip from "@mui/material/Tooltip";
 import {
   FastfoodOutlined,
@@ -19,14 +14,11 @@ import {
   PhoneIphoneOutlined,
 } from "@mui/icons-material";
 import Dialog from "@mui/material/Dialog";
-// import DialogActions from "@mui/material/DialogActions";
 import DialogContent from "@mui/material/DialogContent";
-// import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from "@mui/material/DialogTitle";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
 import {
-  // Button,
   Checkbox,
   Divider,
   FormControl,
@@ -47,36 +39,18 @@ import { useNavigate } from "react-router";
 
 import cycle from "../../assets/image/cycle.png";
 import bike from "../../assets/image/bike.png";
+import auto from '../../assets/image/auto3.jpg';
 import car from "../../assets/image/—Pngtree—car car private car rv_3897294.png";
 import jeep from "../../assets/image/—Pngtree—line drawing jeep clipart_5875525.png";
 import van from "../../assets/image/—Pngtree—the van going to picnic_6709837.png";
+// import bus from '../../assets/image/—Pngtree—bus hd_8062076.png'
+import bus from '../../assets/image/—Pngtree—blue bus_4171934.png'
+// import DialogPage from "../dialog/dialogPage";
 
 const TheatrePage = () => {
   const { detail } = useSelector(({ detail }) => detail);
   console.log(detail);
 
-  //   const responsive = {
-  //     superLargeDesktop: {
-  //       // the naming can be any, depends on you.
-  //       breakpoint: { max: 4000, min: 1024 },
-  //       items: 2,
-  //       slidesToSlide: 5,
-  //      // partialVisibilityGutter: 140
-  //     },
-  //     desktop: {
-  //       breakpoint: { max: 1024, min: 800 },
-  //       items: 4,
-  //       slidesToSlide: 3,
-  //     },
-  //     tablet: {
-  //       breakpoint: { max: 800, min: 464 },
-  //       items: 2
-  //     },
-  //     mobile: {
-  //       breakpoint: { max: 464, min: 0 },
-  //       items: 1
-  //     }
-  //   };
 
   const [value, setValue] = React.useState(0);
 
@@ -129,7 +103,7 @@ const TheatrePage = () => {
   const [open, setOpen] = React.useState(false);
   const [page, setPage] = React.useState(1);
   const [image, setImage] = useState(
-    "https://contents.mediadecathlon.com/p2277240/a00a35dea99e3a6e6e0d6200666b8749/p2277240.jpg"
+   cycle
   );
   const [filterContent, setFilterContent] = useState([]);
   console.log(filterContent);
@@ -143,9 +117,11 @@ const TheatrePage = () => {
     budget,
     premium,
     movieName,
-    show_times
+    show_times,
+    event
   ) => {
     setOpen(true);
+    event.currentTarget.classList.add('active')
     dispatch(
       getTheatreDetail({
         time: tym,
@@ -192,6 +168,10 @@ const TheatrePage = () => {
     localStorage.setItem("seatSelected", JSON.stringify(page));
   };
 
+  useEffect(() => {
+    dispatch(screenPage(false))
+  },[])
+
   const handlePageChange = (value) => {
     setPage(value);
   };
@@ -208,9 +188,10 @@ const TheatrePage = () => {
         setImage(bike);
         break;
       case 3:
-        setImage(
-          "https://cpimg.tistatic.com/06320552/b/4/Bajaj-Auto-Rickshaw.jpg"
-        );
+        // setImage(
+        //   "https://cpimg.tistatic.com/06320552/b/4/Bajaj-Auto-Rickshaw.jpg"
+        // );
+        setImage(auto)
 
         break;
       case 4:
@@ -238,9 +219,10 @@ const TheatrePage = () => {
         setImage(van);
         break;
       default:
-        setImage(
-          "https://assets.thehansindia.com/h-upload/2021/07/02/1085747-metro.webp"
-        );
+        // setImage(
+        //   "https://assets.thehansindia.com/h-upload/2021/07/02/1085747-metro.webp"
+        // );
+        setImage(bus)
     }
   }, [page]);
 
@@ -359,7 +341,7 @@ const TheatrePage = () => {
                   aria-label="scrollable force tabs example"
                 >
                   {[...Array(10)].map((_, idx) => (
-                    <Tab label={dateBuilder(new Date(), idx)} />
+                    <Tab key={idx} label={dateBuilder(new Date(), idx)} />
                   ))}
                 </Tabs>
               </Box>
@@ -442,20 +424,20 @@ const TheatrePage = () => {
                   <Col md={6}>
                     <div className="show_row">
                       {filteredTheatreShow(item?.showTimes)?.map((e, i) => (
-                        <Tooltip title={<UpperTooltip />} placement="top" arrow>
+                        <Tooltip key={i} title={<UpperTooltip />} placement="top" arrow>
                           <div
-                            onClick={() =>
+                            onClick={(event) =>
                               handleClickOpen(
                                 e,
                                 item.theatre_name,
                                 item.budgetPrice,
                                 item.premiumPrice,
                                 detail.movie_name,
-                                item.showTimes
+                                item.showTimes,
+                                event
                               )
                             }
                             className="showtimes"
-                            // style={new Date().getHours()%12 < Number(e.split(":")[0]) ? {color:"orange"} : {color:"#ccc"}}
                             style={
                               new Date().getHours() < e
                                 ? { display: "block" }
@@ -475,7 +457,7 @@ const TheatrePage = () => {
                                     : Math.floor(e % 12) +
                                       `:${
                                         ((e % 12) - Math.floor(e % 12)) * 60
-                                      }`) + " AM"}
+                                      }`) + "AM"}
                             </span>
                             <span className="audio">4K DOLBY ATMOS</span>
                           </div>
@@ -509,7 +491,7 @@ const TheatrePage = () => {
         </div>
       </div>
 
-      {/* <DialogPage fullScreen={fullScreen} open={open} closeFun={handleClose} handlePageChange={handlePageChange} handleNavigateScreen={handleNavigateScreen} page={page} image={image}/> */}
+      {/* <DialogPage fullScreen={fullScreen} open={open} handleClose={handleClose} page={page} handlePageChange={handlePageChange} handleNavigateScreen={handleNavigateScreen} image={image}/> */}
 
       <Dialog
         fullScreen={fullScreen}
@@ -526,14 +508,13 @@ const TheatrePage = () => {
               {" "}
               <img src={image} alt="" />
             </div>
-            {/* <Pagination count={10} page={page} onChange={handlePageChange} color='error' hideNextButton hidePrevButton /> */}
             <div className="seat_count">
               {[...Array(10)].map((_, idx) => {
                 return (
                   <span
+                  key={idx}
                     className={page === idx + 1 ? "active" : ""}
                     onMouseOver={() => handlePageChange(idx + 1)}
-                    // onClick={() => handlePageChange(idx + 1)}
                   >
                     {idx + 1}
                   </span>
@@ -543,14 +524,11 @@ const TheatrePage = () => {
           </div>
         </DialogContent>
         <Divider />
-       
           <div className="amount_detail">
             <UpperTooltip />
           </div>
           <div className="select_seat_btn">
             <button
-              // variant="contained"
-              // style={{ backgroundColor: "#f84464", color: "#fff" }}
               className="btn_primary"
               onClick={handleNavigateScreen}
             >
@@ -562,5 +540,8 @@ const TheatrePage = () => {
     </>
   );
 };
+
+            {/* <Pagination count={10} page={page} onChange={handlePageChange} color='error' hideNextButton hidePrevButton /> */}
+
 
 export default TheatrePage;

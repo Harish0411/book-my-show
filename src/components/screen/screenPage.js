@@ -6,6 +6,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router";
 import "./screenPage.scss";
 import { getSeatDetail } from "../../redux/detailSlice";
+import DialogPage from "../dialog/dialogPage";
 // import { async } from 'q';
 
 const ScreenPage = () => {
@@ -21,6 +22,9 @@ const ScreenPage = () => {
   const [label, setLabel] = useState("");
   const [seatWithLabel, setSeatWithLabel] = useState([]);
   const [column, setColumn] = useState(0);
+  const [columns, setColumns] = useState(0);
+  const [openFromScreen, setOpenFromScreen] = useState(false);
+  // const [disable , setDisable] = useState(false)
 
   //   const seatClicked = (seatId, seatinfo) => {
   //     if (selectedSeats.includes(seatId)) {
@@ -49,7 +53,11 @@ const ScreenPage = () => {
     setColumn(cols);
   };
 
-  let NUM_COLS = column;
+  useEffect(() => {
+    setColumns(column);
+  }, [column]);
+
+  let NUM_COLS = columns;
 
   console.log(NUM_COLS);
 
@@ -131,7 +139,7 @@ const ScreenPage = () => {
   const navigateToPayment = (seatsDetail) => {
     navigate("/payment");
     dispatch(getSeatDetail(seatsDetail));
-    localStorage.setItem('seatDetail', JSON.stringify(seatsDetail))
+    localStorage.setItem("seatDetail", JSON.stringify(seatsDetail));
   };
 
   return (
@@ -148,13 +156,39 @@ const ScreenPage = () => {
                 {theatreDetail.movie_name} <span className="censor">UA</span>
               </h2>
               <p className="td_content">
-                {theatreDetail.theatre_name} | Today, {theatreDetail.time}
+                {theatreDetail.theatre_name} | Today,{" "}
+                {theatreDetail.time >= 12
+                  ? ((theatreDetail.time % 12) % 1 === 0
+                      ? (theatreDetail.time % 12 || 12) + ":00"
+                      : Math.floor(theatreDetail.time % 12) +
+                        `:${
+                          ((theatreDetail.time % 12) -
+                            Math.floor(theatreDetail.time % 12)) *
+                          60
+                        }`) + " PM"
+                  : ((theatreDetail.time % 12) % 1 === 0
+                      ? (theatreDetail.time % 12) + ":00"
+                      : Math.floor(theatreDetail.time % 12) +
+                        `:${
+                          ((theatreDetail.time % 12) -
+                            Math.floor(theatreDetail.time % 12)) *
+                          60
+                        }`) + "AM"}
               </p>
             </div>
           </div>
           <div className="screen_col right">
             <div>
-              <Button variant="outlined" style={{color : '#fff', border : '1px solid #fff', fontSize:10}} endIcon={<EditIcon style={{fontSize: 10}}/>}>
+              <Button
+                variant="outlined"
+                onClick={() => setOpenFromScreen(true)}
+                style={{
+                  color: "#fff",
+                  border: "1px solid #fff",
+                  fontSize: 10,
+                }}
+                endIcon={<EditIcon style={{ fontSize: 10 }} />}
+              >
                 {seats} Tickets
               </Button>
             </div>
@@ -171,11 +205,28 @@ const ScreenPage = () => {
           <div className="show_row">
             {theatreDetail?.show_times?.map((e, i) => (
               <div
-                className="show_tyms"
-                style={new Date().getHours() < e ? {display: 'block'} : {display : 'none'}}
+                key={i}
+                className={
+                  theatreDetail.time === e ? "show_tyms active" : "show_tyms"
+                }
+                style={
+                  new Date().getHours() < e
+                    ? { display: "block" }
+                    : { display: "none" }
+                }
               >
-                <span className='time'>{e >= 12 ? ((e%12)%1 === 0 ? ((e%12 || 12)  + ':00') : (Math.floor(e%12) + `:${(e%12 -  Math.floor(e%12))*60}`) ) + ' PM' : ((e%12)%1 === 0 ? (e%12 + ':00') : (Math.floor(e%12) + `:${(e%12 -  Math.floor(e%12))*60}`)) + ' AM'}</span>
-                                <span className='audio'>4K DOLBY ATMOS</span>
+                <span className="time">
+                  {e >= 12
+                    ? ((e % 12) % 1 === 0
+                        ? (e % 12 || 12) + ":00"
+                        : Math.floor(e % 12) +
+                          `:${((e % 12) - Math.floor(e % 12)) * 60}`) + " PM"
+                    : ((e % 12) % 1 === 0
+                        ? (e % 12) + ":00"
+                        : Math.floor(e % 12) +
+                          `:${((e % 12) - Math.floor(e % 12)) * 60}`) + " AM"}
+                </span>
+                <span className="audio">4K DOLBY ATMOS</span>
               </div>
             ))}
           </div>
@@ -3054,6 +3105,10 @@ const ScreenPage = () => {
                 <div className="lengent_text">Sold</div>
               </div>
             </div>
+            <DialogPage
+              openFromScreen={openFromScreen}
+              setOpenFromScreen={setOpenFromScreen}
+            />
           </>
         )}
       </section>
